@@ -24,4 +24,4 @@ In this project was used HTML, CSS, JavaScript.
 
 ## How to see this project? 🔎
 
-this project you can opened here [@Microsoft Visual Studio.](https://visualstudio.microsoft.com/)
+this project you can opened here [Sketch LunaMama HTML](https://github.com/Richard-Rico/LunaMama-website-sketch-in-HTML/Index.html)
