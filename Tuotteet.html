@@ -1,0 +1,121 @@
+<!DOCTYPE html />
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Luna Mama</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="CSS\TensVuokraus.css">
+    <link rel="stylesheet" href="CSS\Tuottet.css">
+</head>
+
+
+<body>
+    <header>
+        <a href="Index.html">
+            <img id="Home" src="img\logolunamama2.PNG" alt="Luna-mama" height=82></a>
+        <!-- ---------------------------------------------  Menu --------------------------------------------------------------- -->
+        <p class="p" style="text-align:center;" class="link"><a href="Index.html"
+                style="text-decoration:none">Meistä</a> | <a href="TensVuokraus.html"
+                style="text-decoration:none">Tens-Vuokraus</a> | <a href="Tuotteet.html"
+                style="text-decoration:none">Muut Tuotteet</a> | <a href="Yhteystiedot.html"
+                style="text-decoration:none">Yhteystiedot</a></p>
+        <hr width="2000" size="1">
+        <!-- --------------------------------------------- Star Product --------------------------------------------------------------- -->
+        <h1 id="Alku" class="title" style="text-align:center;">Muut Tuotteet</h1>
+    </header>
+    <h1 style="color:rgb(92, 169, 199)" align="center">Luna Mama-Tuottet lista</h1>
+
+    <table class="fixed_header">
+
+        <thead align="center">
+
+            <tr>
+                <th>Tuotekuva</th>
+                <th>Tuotekoodi</th>
+                <th>Tuotteen nimi</th>
+                <th>Ostohinta</th>
+                <th>Vuokrahinta</th>
+                <th>Varastossa</th>
+                <th></th>
+
+            </tr>
+
+        </thead>
+
+        <tbody align="center">
+            <tr>
+                <td><img src="img\tens.jpg" class="img-center" alt="Tens Laitte" height=100></a></td>
+                <td>LM01001</td>
+                <td><a href="TensVuokraus.html" style="cursor:pointer" a>ELLE TENS</td>
+                <td>112,50</td>
+                <td>39,00</td>
+                <td>125</td>
+                <td>
+                    <button class="button button2" onclick="lisaaTuotetta('LM01001')">Lisää ostoskoriin</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/electrodes.jpg" class="img-center" alt="Tens Laitte" height=100></a></td>
+                <td>LM01002</td>
+                <td><a href="TElektrodit.html" style="cursor:pointer" a>ELLE TENS -ELEKTRODIT</td>
+                <td>12,50</td>
+                <td> - </td>
+                <td>550</td>
+                <td>
+                    <button class="button button2" onclick="lisaaTuotetta('LM01002')">Lisää ostoskoriin</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/guasha.jpg" class="img-center" alt="Tens Laitte" height=100></a></td>
+                <td>LM01003</td>
+                <td><a href="Tguasha.html" style="cursor:pointer" a>GUASHA-KAMPA</td>
+                <td>25,00</td>
+                <td>4,00</td>
+                <td>150</td>
+                <td>
+                    <button class="button button2" onclick="lisaaTuotetta('LM01003')">Lisää ostoskoriin</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/Bellybind.jpg" class="img-center" alt="Tens Laitte" height=100></a></td>
+                <td>LM01004</td>
+                <td>BELLY BIND</td>
+                <td>80,00</td>
+                <td>25,00</td>
+                <td>50</td>
+                <td>
+                    <button class="button button2" onclick="lisaaTuotetta('LM01004')">Lisää ostoskoriin</button>
+                </td>
+            </tr>
+
+        </tbody>
+        <!-------------------------------------------------JavaScript Code----------------------------------------------------------->
+        <script>
+            function showMSG() {
+                alert("Lisätään uusi tuote...");
+                console.log("joku painoi tuotteen lisäysnappulaa!");
+            };
+            function lisaaTuotetta(Tuotekoodi) {
+                alert("Tuote " + Tuotekoodi + " on lisätty ostoskoriin!");
+                console.log("tuote on lisätty ostoskoriin!");
+            };
+            function poistaTuote(Tuotekoodi) {
+                alert("Poistetaan tuote..." + Tuotekoodi);
+                console.log("joku painoi tuotteen poistonappulaa!");
+            };
+        </script>
+        <!---------------------------------------------------------------------------------------------------------------------------->
+    </table>
+
+    &nbsp;
+    <p style="text-align:center;"><a href="#Home" class="p">Takaisin sivun alkuun</a></p>
+
+    <footer>
+        <p class="p" style="text-align:center;">© Copyright Luna Mama 2021</p>
+    </footer>
+
+
+</body>
+
+</html>
