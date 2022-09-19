@@ -24,4 +24,4 @@ In this project was used HTML, CSS, JavaScript.
 
 ## How to see this project? 🔎
 
-This project you can opened here [Sketch LunaMama HTML](https://richard-rico.github.io/LunaMama-website-sketch-in-HTML/Index.html)
+This project you can opened here [Sketch LunaMama HTML](https://richard-rico.github.io/LunaMama-website-sketch-in-HTML/Index.html target="_blanck)
